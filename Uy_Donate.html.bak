@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title> Pawssion Project </title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<style>
+h2 {margin-left: 200px;
+margin-right:200px;}
+#pmain {margin-left: 300px;
+margin-right:300px;
+color:#5F5D5D;
+font-size:20px;}
+.input1[type=button] {
+  width: 7%;
+  background-color: #A43030;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight:bold;
+  font-size:14px;}
+.input1 [type=button]:hover {
+  background-color: #B8B4B4 ;}
+.input2[type=button] {
+  width: 13%;
+  background-color: #A43030;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight:bold;
+  font-size:14px;}
+.input2[type=button]:hover {
+  background-color: #B8B4B4 ;}
+#para1 {margin-top: 25px;
+	margin-bottom: 100px;
+	margin-right: 300px;
+	margin-left: 300px;}
+#img1 {float: left;}
+#para2 {margin-top: 25px;
+	margin-bottom: 100px;
+	margin-right: 300px;
+	margin-left: 300px;}
+#img2 {float: right;}
+#b1 {color:#A43030;
+font-size: 30px;
+font-left: 500px;}
+#b2 {font-size: 20px;}
+hr.new1 {border: 3px solid #EDBF5E;
+margin-right: 200px;
+margin-left: 200px;}
+</style>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="pawssion project.html">  <img src="logo (3).png" alt="dog paw" width="300" height="75">  </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="pawssion project.html">Home</a></li>
+                <li><a href="SARMIENTO_2ndPage.html">Fur-Adoption</a></li>
+                <li><a href="ANGELES_Rescues.html">Rescues</a></li>
+                <li><a href="Uy_Donate.html">Donate</a></li>
+                <li><a href="Volunteers-and-Staffs.html">Volunteers & Staffs</a></li>
+                <li><a href="FABICO_ST about us.html">About Us</a></li>
+                <li><a href="FABICO_ST contact.html">Contact Us</a></li>
+                <li><a href="FABICO_ST consent.html">Consent</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br /><br /><br /><br /><br /><br />
+    <div>
+		<img src="img1 donate.jpg" style="width: 100%; height: 100%;">
+	</div>
+	  
+    <script src="jsfile.js"></script>
+
+    <div class="myDiv">
+        <table class="center">
+            <tr>
+                <th><h1>2</h1></th>
+                <th><h1>  500</h1></th>
+                <th><h1>1000</h1></th>
+                <th><h1>25,000</h1></th>
+            </tr>
+            <tr>
+                <td><h1>SHELTER LOCATIONS</h1></td>
+                <td><h1>RESCUES SHELTERED</h1></td>
+                <td><h1>RESCUED</h1></td>
+                <td><h1>WEEKLY EXPENSES</h1></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="text">
+
+        <h2 style="color:#A43030">As a non-profit organization, Pawssion Project operates and relies heavily on donations from people like you.</h2>
+		<br/><br/>
+		<p id="pmain">We are always called upon to rescue animals suffering from abandonment, abuse, injury or neglect. Whether it’s a street dog or cat in need of 
+		medical treatment or our ongoing fight against Animal Cruelty in the Philippines, none of it is possible without your support. <br/><br/><br/>
+		Please donate when you can. Every little thing helps for our rescues. Seeing them smile and then sleep so well after a good meal makes all the effort and struggles worth it. <br/><br/><br/>
+		For tracking purposes, kindly send your proof of donation to: <a href="mailto:donations@pawssionproject.org">donations@pawssionproject.org</a></p>
+        
+    </div>
+    <div class="text2">
+        <div class="row">
+            <div class="column">
+                <img src="d1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="d2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="d3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="d4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="d5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="d6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            </div>
+			<br/>
+			<a href="https://pawssionproject.helixpay.ph/"><input class="input1"type=button value=DONATE></a><br/><br/>
+			 <a href="https://www.paypal.com/donate?token=-wDR_ZePjswvfp9iDCm2dWLR3CP5lXX1ToAVSHArk5tqzhKE00tBGK7fKpKyYqCpxvuJUSztpnnMvb_A"><img src="paypal.jpg" alt="donate paypal" width="120" height="50" style="margin-left:17px;"</a>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="d1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="d2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="d3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="d4.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="d5.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="d6.jpg" style="width:100%">
+                </div>
+              
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+                <div class="column">
+                    <img class="demo cursor" src="d1.jpg" style="width:100%" onclick="currentSlide(1)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="d2.jpg" style="width:100%" onclick="currentSlide(2)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="d3.jpg" style="width:100%" onclick="currentSlide(3)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="d4.jpg" style="width:100%" onclick="currentSlide(4)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="d5.jpg" style="width:100%" onclick="currentSlide(5)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="d6.jpg" style="width:100%" onclick="currentSlide(6)">
+                </div>
+            </div>
+			<br/>
+        </div>
+		
+     </div>  
+	 
+     <script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+  
+
+        <script>
+            let nav = document.querySelector("nav");
+            window.onscroll = function () {
+                if (document.documentElement.scrollTop > 20) {
+                    nav.classList.add("sticky");
+                } else {
+                    nav.classList.remove("sticky");
+                }
+            }
+        </script>
+		<br/>
+		<center>
+		<img src="official donations.jpg" alt="official donations channels" width="1100" height="700"> 
+		<img src="official donations 2.jpg" alt="official donations channels" width="1100" height="380"> 
+		<br/><br/>
+		<img src="in-kind donate.jpg" alt="in-kind donations" width="1100" height="60">
+		</center>
+			<br/><br/>
+		<div class="in-kind donate">
+			<p id="para1"><img id="img1"src="bacolod shelter.jpg" alt="bacolod shelter" style="width:400px;height:400px;margin-right:50px"><b id="b1">Bacolod Shelter</b>
+			<br/><br/><br/><b id="b2">Joan Articulo</b><br/><br/><br/><b id="b2">(0917) 120 3717</b><br/><br/><br/>
+			<b id="b2">Address: </b>Pawssion Project Permanent Sanctuary<br/><br/><br/><b id="b2">Google Maps: </b>M2JV+5W, Bacolod, Negros Occidental
+			<br/><br/><br/><b id="b2">Wishlists: </b>Dog & Cat Food, Vegetables, Meat Sawdust, Detergent, Disinfectants, Cleaning Equipments, Dewormers for Cats & Dogs</p>
+				
+				<hr class="new1">
+				<br/><br/>
+			<p id="para2"><img id="img2" src="bulacan shelter.jpg" alt="bulacan shelter" style="width:400px;height:400px;margin-left:50px"><b id="b1">Bulacan Shelter</b>
+			<br/><br/><br/><b id="b2">Ina Fernandez</b><br/><br/><br/><b id="b2">(0927) 856 0842</b><br/><br/><br/>
+			<b id="b2">Address: </b> 1429 Paradise 1, Purok 7, Tungkong Mangga, City of San Jose Del Monte Bulacan. 3023<br/><br/><br/><b id="b2">Waze: </b>PAWSSION PROJECT
+			<br/><br/><br/><b id="b2">Wishlists: </b>Dry Cat Food, Vegetables (Squash), Meat Sawdust, Detergent, Disinfectants, Cleaning Equipments, Dewormers for Cats & Dogs</p>
+			<center>
+			<a href="https://pawssionproject.org.ph/help-at-our-shelters/"><input class="input2" type=button value="SHELTER WISHLIST"></a>
+			</center>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+        <footer>
+            <div class="footer-content">
+                <a href="pawssion project.html">  <img src="logo (4).png" alt="dog paw" width="300" height="75"></a>
+                <br />
+                <p>Bulacan Shelter: 1429 Paradise 1, Purok 7 Tungkong Mangga, SJDM, Bulacan <br />Bacolod Shelter: GM Cordova Ave (Buri Road), Bacolod, Negros Occidental</p>
+                <p>info@pawssionproject.org</p>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/PAWSsionProject" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/pawssionproject?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/pawssionproject/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/PawssionProject" target="_blank"><i class="fab fa-youtube"></i></a>
+				</div>
+            </div>
+
+        </footer>
+</body>
+</html>
+
